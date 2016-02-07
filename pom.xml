@@ -9,6 +9,7 @@
         <module>contextpath-example</module>
         <module>jsp-example</module>
         <module>servlet-example</module>
+        <module>springbean-servlet-example</module>
     </modules>
     <name>webapp-example</name>
     <url>http://maven.apache.org</url>
