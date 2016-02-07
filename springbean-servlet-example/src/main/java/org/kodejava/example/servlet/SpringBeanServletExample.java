@@ -17,14 +17,13 @@ public class SpringBeanServletExample extends HttpServlet {
     protected void doGet(HttpServletRequest req,
                          HttpServletResponse res)
             throws ServletException, IOException {
-        Long userId = Long.valueOf(req.getParameter("user_id"));
-
         ServletContext context = getServletContext();
         WebApplicationContext ctx =
                 WebApplicationContextUtils
                         .getWebApplicationContext(context);
         UserDao dao = ctx.getBean("userDao", UserDao.class);
 
+        Long userId = Long.valueOf(req.getParameter("user_id"));
         User user = dao.getUser(userId);
 
         res.setContentType("text/html");
