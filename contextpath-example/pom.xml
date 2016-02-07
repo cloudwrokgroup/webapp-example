@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>webapp-example</artifactId>
@@ -9,7 +10,8 @@
     <artifactId>contextpath-example</artifactId>
     <packaging>war</packaging>
     <name>contextpath-example</name>
-    <url>http://maven.apache.org</url>
+    <url>http://kodejava.org</url>
+
     <build>
         <finalName>contextpath-example</finalName>
     </build>
